@@ -3,6 +3,6 @@ class Student < User
 attr_accessor :first_name 
 
 def initialize(first_name)
-#   @name = name 
-# end 
+  @first_name = first_name 
+end 
 end
