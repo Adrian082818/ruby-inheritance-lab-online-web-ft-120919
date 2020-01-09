@@ -1,8 +1,8 @@
 class Student < User
 
-# attr_accessor :name 
+attr_accessor :first_name 
 
-# def initialize(name)
+def initialize(first_name)
 #   @name = name 
 # end 
 end
